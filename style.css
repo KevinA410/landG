@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+#main{
+    background-color: #fff;
+    padding-top: 10px;
+}
+
+#brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 11vh;
+    display: inline-block;
+    letter-spacing: 0.1;
+}
+
+.listTitle{
+    color: green;
+    font-weight: bold;
+}
+
+/*
+    Fuente
+*/
+html{
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 992px){
+    html{
+        font-size: 1.15rem;
+    }
+}
